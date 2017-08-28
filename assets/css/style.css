@@ -29,6 +29,7 @@ body {
 	background-color: #d6362e;
 }
 
+.row img { margin: 0 auto; }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{	margin: 0; }
 
@@ -172,7 +173,7 @@ footer p.body { display: inline-block; color: grey;}
 footer hr { border-color: #4b4a4a }
 footer button { margin: 5px 5px; }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
 	.navbar-header {
 			float: none;
 	}
