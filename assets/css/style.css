@@ -67,8 +67,6 @@ body {
 .jumbotron h2 { text-align: center; }
 .jumbotron p { text-align: center; }
 
-aside { float: right; }
-
 aside img {
 	width: 100px;
 	height: 100px;
