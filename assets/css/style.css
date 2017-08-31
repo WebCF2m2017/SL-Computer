@@ -74,6 +74,12 @@ aside img {
 	margin-top: 10px;
 }
 
+img.img-responsive{
+    margin: 0 auto;
+}
+.mt5{
+    margin-top: 5px;
+}
 .newsletter {
 	padding: 25px 0;
 }
