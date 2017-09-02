@@ -80,6 +80,13 @@ img.img-responsive{
 .mt5{
     margin-top: 5px;
 }
+.mt6{
+    margin: 10px auto; 
+    text-align: center;
+}
+.mt7{
+    width: 100%;
+}
 .newsletter {
 	padding: 25px 0;
 }
