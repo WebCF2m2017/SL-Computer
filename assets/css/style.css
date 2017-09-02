@@ -77,16 +77,12 @@ aside img {
 img.img-responsive{
     margin: 0 auto;
 }
-.mt5{
-    margin-top: 5px;
-}
-.mt6{
-    margin: 10px auto; 
-    text-align: center;
-}
-.mt7{
-    width: 100%;
-}
+.mt5 { margin-top: 5px; }
+.mt-10-a { margin: 10px auto; }
+.ta-c { text-align: center; }
+.w100 { width: 100%; }
+.lightgrey { background: rgba(158, 158, 158, 0.38); }
+
 .newsletter {
 	padding: 25px 0;
 }
