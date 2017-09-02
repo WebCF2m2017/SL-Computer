@@ -11,6 +11,8 @@ body {
   	margin: 0 0 200px;
 }
 
+aside .slick-list { height: 680px !important; }
+
 .clear { clear: both; }
 
 .spacer-header {
