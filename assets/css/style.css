@@ -10,6 +10,23 @@ body {
 	font-size: 18px;
   	margin: 0 0 200px;
 }
+/*
+modif footer 12/09
+*/
+.btn-twitter {
+    background-color: #3399CC !important;
+    width: 51px;
+    color:#FFFFFF!important;
+}
+
+.btn-facebook {
+    background-color: #3D5B96 !important;
+    width: 51px;
+    color:#FFFFFF!important;
+}
+/*
+au cas ou taimes pas tu supprimes jusquici, il est actif que sur lindex
+*/
 
 aside .slick-list { height: 680px !important; }
 
@@ -151,6 +168,14 @@ footer .contact li {
 	display: inline-flex;
 }
 footer li.phone:before {
+	content: "\f095";
+	font-family: FontAwesome;
+	font-family: FontAwesome;
+	display: inline-block;
+	margin-left: -1.3em;
+	width: 1.3em;
+}
+footer .phone:before {
 	content: "\f095";
 	font-family: FontAwesome;
 	font-family: FontAwesome;
