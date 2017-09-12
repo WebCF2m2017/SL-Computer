@@ -30,4 +30,22 @@ $(document).ready(function(){
     	draggable: false,
     	adaptativeHeight: true
 	});
+
+	$('ul.nav li.dropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(50).fadeIn(0);
+    }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(50).fadeOut(0);
+    });
+
+
+	$('aside').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		arrows: false,
+		vertical: true,
+		infinite: true,
+		autoplay: true,
+		draggable: false
+	});
+	
 });

@@ -291,23 +291,5 @@
 	<script type="text/javascript" src="assets/js/slick.min.js"></script>
 	<script src="assets/js/app.js"></script>
 
-	<script>
-	$(document).ready(function(){
-		$('aside').slick({
-			slidesToShow: 4,
-			slidesToScroll: 1,
-			arrows: false,
-			vertical: true,
-			infinite: true,
-			autoplay: true,
-			draggable: false
-		});
-	});
-        $('ul.nav li.dropdown').hover(function() {
-            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-        }, function() {
-            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-        });
-	</script>
 </body>
 </html>
