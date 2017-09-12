@@ -3,14 +3,12 @@ $(document).ready(function(){
 
 	$('.pneuf').slick({
 		slidesToShow: 4,
-		slidesToScroll: 2,
+		slidesToScroll: 1,
 		infinite: true,
 		autoplay: true,
 		autoplaySpeed: 2000,
 		dots: true,
 		arrows: false,
-		mobileFirst: true,
-		variableWidth: true,
 		responsive: [
 		    {
 		      breakpoint: 400,
