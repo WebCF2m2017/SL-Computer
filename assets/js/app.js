@@ -31,12 +31,14 @@ $(document).ready(function(){
     	adaptativeHeight: true
 	});
 
-	$('ul.nav li.dropdown').hover(function() {
-        $(this).find('.dropdown-menu').stop(true, true).delay(50).fadeIn(0);
-    }, function() {
-        $(this).find('.dropdown-menu').stop(true, true).delay(50).fadeOut(0);
-    });
-
+	$('ul.nav li.dropdown').hover(
+		function(){
+			$(this).find('.dropdown-menu').stop(true, true).delay(50).fadeIn(0);
+		},
+		function(){
+			$(this).find('.dropdown-menu').stop(true, true).delay(50).fadeOut(0);
+		}
+	);
 
 	$('aside').slick({
 		slidesToShow: 4,
