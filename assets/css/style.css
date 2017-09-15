@@ -27,6 +27,9 @@ modif footer 12/09
 /*
 au cas ou taimes pas tu supprimes jusquici, il est actif que sur lindex
 */
+.blue{
+	color:blue;
+}
 
 aside .slick-list { height: 680px !important; }
 
